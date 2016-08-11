@@ -102,9 +102,11 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
+  /*width:270px;*/
+  width: 100%;
+  /*float:left;*/
+  /*position:fixed;*/
+  text-align: right;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
