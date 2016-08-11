@@ -1,9 +1,12 @@
 body {
-  background-color: #fff;
-  padding:50px;
+  background-color: #2c2c2c;
+  margin: 0;
+  padding:0 50px;
   font: 1em Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+  box-sizing: border-box;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,7 +23,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:3em;
 }
 
 h2 {
@@ -52,6 +55,7 @@ a:hover small {
 }
 
 .wrapper {
+  background-color: #e0d0c0;
   width:860px;
   margin:0 auto;
 }
@@ -104,75 +108,30 @@ img {
 header {
   /*width:270px;*/
   width: 100%;
+  font-family: serif;
   /*float:left;*/
   /*position:fixed;*/
   text-align: right;
   -webkit-font-smoothing:subpixel-antialiased;
 }
-
-header ul {
-  list-style:none;
-  height:40px;
-  padding:0;
-  background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
-  width:270px;
+.screenshot {
+    width: 41%;
+    display: inline-block;
 }
-
-header li {
-  width:89px;
-  float:left;
-  border-right:1px solid #e0e0e0;
-  height:40px;
-}
-
-header li:first-child a {
-  border-radius:5px 0 0 5px;
-}
-
-header li:last-child a {
-  border-radius:0 5px 5px 0;
-}
-
-header ul a {
-  line-height:1;
-  font-size:11px;
-  color:#999;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:34px;
-}
-
-header ul a:hover {
-  color:#999;
-}
-
-header ul a:active {
-  background-color:#f0f0f0;
-}
-
 strong {
   color:#222;
   font-weight:700;
 }
 
-header ul li + li + li {
-  border-right:none;
-  width:89px;
-}
-
-header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
-}
-
 section {
-  width:500px;
-  float:right;
-  padding-bottom:50px;
+  width:50%;
+  float:left;
+  padding: 1% 2%;
+  /*margin: 2em 4em;*/
+  display: inline-block;
+}
+.info > div {
+  margin: 1em;
 }
 
 small {
@@ -187,10 +146,11 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
+  width:100%;
+  /*float:left;*/
+  /*position:fixed;*/
+  /*bottom:50px;*/
+  padding: 1%;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -214,10 +174,12 @@ footer {
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
-    padding:20px 0;
+    padding:20px 1em;
     margin:0 0 20px;
   }
-
+  .screenshot {
+    width: auto;
+  }
   header a small {
     display:inline;
   }
@@ -245,6 +207,9 @@ footer {
   pre, code {
     word-wrap:normal;
   }
+  .screenshot {
+    width: auto;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
@@ -258,6 +223,9 @@ footer {
 
   header li, header ul li + li + li {
     width:33%;
+  }
+  .screenshot {
+    width: auto;
   }
 }
 
