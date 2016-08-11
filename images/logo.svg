@@ -100,15 +100,17 @@
   </metadata>
   <g
      transform="translate(0,-452.36214)"
-     style="opacity:1"
-     id="layer1">
+     style="opacity:1;fill:#6f6a6f;fill-opacity:1"
+     id="layer1"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
     <rect
        y="452.36215"
        x="0"
        height="600"
        width="860"
        id="rect5898"
-       style="fill:#909590;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.22599995;stroke-miterlimit:4;stroke-dasharray:none" />
+       style="fill:#6f6a6f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.22599995;stroke-miterlimit:4;stroke-dasharray:none" />
   </g>
   <g
      id="layer2">
@@ -132,10 +134,10 @@
      id="text5903-8"
      y="95.802307"
      x="532.76111"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d3cfd1;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      xml:space="preserve"
      sodipodi:linespacing="125%"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face'"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#d3cfd1;fill-opacity:1;"
        y="95.802307"
        x="532.76111"
        id="tspan5905-4">Kalirone</tspan></text>
