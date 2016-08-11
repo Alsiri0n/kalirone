@@ -31,8 +31,8 @@
      inkscape:window-height="1005"
      id="namedview3349"
      showgrid="false"
-     inkscape:zoom="0.75643981"
-     inkscape:cx="460.0306"
+     inkscape:zoom="0.82674419"
+     inkscape:cx="430"
      inkscape:cy="196.66541"
      inkscape:window-x="81"
      inkscape:window-y="-4"
@@ -40,6 +40,18 @@
      inkscape:current-layer="svg2" />
   <defs
      id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4212">
+      <stop
+         style="stop-color:#9ae19d;stop-opacity:1;"
+         offset="0"
+         id="stop4214" />
+      <stop
+         style="stop-color:#9ae19d;stop-opacity:0;"
+         offset="1"
+         id="stop4216" />
+    </linearGradient>
     <linearGradient
        id="linearGradient5886">
       <stop
@@ -62,6 +74,17 @@
        cx="430"
        id="radialGradient5638"
        xlink:href="#linearGradient5886" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4212"
+       id="radialGradient4218"
+       cx="430.00001"
+       cy="301.14286"
+       fx="430.00001"
+       fy="301.14286"
+       r="259.99999"
+       gradientTransform="matrix(1,0,0,0.26923078,0,220.06593)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata7">
@@ -85,14 +108,14 @@
        height="600"
        width="860"
        id="rect5898"
-       style="fill:#e0d0c0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.22599995;stroke-miterlimit:4;stroke-dasharray:none" />
+       style="fill:#909590;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.22599995;stroke-miterlimit:4;stroke-dasharray:none" />
   </g>
   <g
      id="layer2">
     <path
        id="rect3347"
        d="m 170.00002,301.14286 39.99999,-70 179.99999,0 80,140 180,0 40,-70 -40,-70 -180,0 -80,140 -179.99999,0 z"
-       style="opacity:1;fill:url(#radialGradient5638);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.22599995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:url(#radialGradient4218);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.22599995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        id="text5903"
        y="85.248924"
