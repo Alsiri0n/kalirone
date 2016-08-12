@@ -1,6 +1,7 @@
 @colorBack: #d3d0cb;
 @colorWrap: #e7e5df;
 @colorText: #313638;
+@colorLink: #44bba4;
 @colorLogo: #f09d51;
 @font-face {
   font-family: "MyriadPro";
@@ -45,12 +46,14 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  // color:#39c;
+  color: @colorLink;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  // color:#069;
+  color: darken(@colorLink, 10%);
 }
 
 a small {
