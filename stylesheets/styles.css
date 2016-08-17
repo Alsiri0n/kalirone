@@ -4,6 +4,9 @@
   font-weight: 400;
   font-style: normal;
 }
+svg {
+  width: 100%;
+}
 body {
   background-color: #d3d0cb;
   margin: 0;
@@ -79,6 +82,10 @@ a:hover small {
 img {
   max-width: 100%;
 }
+img:hover {
+  box-shadow: 0 0 30px 0 #a59e88;
+  transition: box-shadow 0.3s;
+}
 header {
   /*width:270px;*/
   width: 100%;
@@ -123,9 +130,6 @@ footer {
     position: static;
     width: auto;
   }
-  header {
-    padding-right: 320px;
-  }
   section {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
@@ -134,9 +138,13 @@ footer {
   }
   .screenshot {
     width: auto;
+    text-align: center;
   }
   header a small {
     display: inline;
+  }
+  svg {
+    width: 100%;
   }
 }
 @media print, screen and (max-width: 720px) {
@@ -154,16 +162,10 @@ footer {
   code {
     word-wrap: normal;
   }
-  .screenshot {
-    width: auto;
-  }
 }
 @media print, screen and (max-width: 480px) {
   body {
     padding: 15px;
-  }
-  .screenshot {
-    width: auto;
   }
 }
 @media print {
