@@ -67,13 +67,13 @@ a:hover small {
   color: #777;
 }
 .wrapper {
-  background-color: #EDC79B;
+  background-color: #E2DADB;
   width: 960px;
   margin: 0 auto;
-  box-shadow: 0 0 30px 0 #cb7e24;
+  box-shadow: 0 0 30px 0 #9f8488;
 }
 #rect4778 {
-  fill: #EDC79B;
+  fill: #E2DADB;
 }
 #stop4843,
 #stop4845 {
@@ -84,7 +84,7 @@ img {
   transition: .3s;
 }
 img:hover {
-  box-shadow: 0 0 20px 0 #cb7e24;
+  box-shadow: 0 0 20px 0 #9f8488;
 }
 header {
   /*width:270px;*/
