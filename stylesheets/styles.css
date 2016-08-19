@@ -87,7 +87,7 @@ nav {
   float: left;
 }
 nav a {
-  padding: 1em;
+  padding-left: 1em;
 }
 .screenshot {
   width: 41%;
