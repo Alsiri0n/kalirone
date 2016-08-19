@@ -44,14 +44,12 @@ function animate(oldContent, newContent) {
   oldContent.style.position = 'absolute';
 
   var fadeOut = oldContent.animate({
-    transform: 'translateX(100px)'}, 1000);
-  //   opacity: [1, 0]
-  // }, 1000);
+    opacity: [1, 0]
+  }, 1000);
 
   var fadeIn = newContent.animate({
-  //   opacity: [0, 1]
-  // }, 1000);
-  transform: 'translateX(-10000px)'}, 1000);
+    opacity: [0, 1]
+  }, 1000);
 
   fadeIn.onfinish = function() {
     oldContent.parentNode.removeChild(oldContent);
