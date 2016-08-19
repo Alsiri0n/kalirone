@@ -9,9 +9,6 @@
   font-weight: 400;
   font-style: normal;
 }
-svg {
-  width: 100%;
-}
 
 body {
   background-color: @colorBack;
@@ -26,11 +23,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-  margin:0 0 20px;
+  margin:0 0 -10px 0;
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+  margin:0 0 20px 0;
 }
 
 h1, h2, h3 {
@@ -49,23 +46,16 @@ h3, h4, h5, h6 {
   color:#494949;
 }
 
+svg {
+  width: 100%;
+}
+
 a {
   color: @colorLink;
-  text-decoration:none;
+  text-decoration: none;
   &:hover {
   color: darken(@colorLink, 10%);
   }
-}
-
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
-}
-
-a:hover small {
-  color:#777;
 }
 
 .wrapper {
@@ -86,22 +76,26 @@ a:hover small {
 img {
   max-width:100%;
   transition: .3s;
-&:hover {       
+&:hover {
     box-shadow: 0 0 20px 0 darken(@colorWrap, 30%);
   }
 }
 
-
 header {
-  /*width:270px;*/
   width: 100%;
-  font-family: serif;
-  /*float:left;*/
-  /*position:fixed;*/
   text-align: center;
 
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
+nav {
+  margin: 1em 0 0 3em;
+  float: left;
+  a {
+    padding: 1em;
+  }
+}
+
 .screenshot {
     width: 41%;
     display: inline-block;
@@ -112,8 +106,14 @@ section {
   float:left;
   padding: 1% 2%;
 }
-.info > div {
-  margin: 1em;
+
+.info {
+  div {
+    margin: 1em;
+  }
+  h3 {
+    text-align: center;
+  }
 }
 
 hr {
@@ -124,7 +124,7 @@ hr {
 }
 
 footer {
-  width:100%;
+  width: 100%;
   padding: 1%;
   -webkit-font-smoothing:subpixel-antialiased;
 }

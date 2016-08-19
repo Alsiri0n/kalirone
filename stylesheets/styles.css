@@ -4,9 +4,6 @@
   font-weight: 400;
   font-style: normal;
 }
-svg {
-  width: 100%;
-}
 body {
   background-color: #d3d0cb;
   margin: 0;
@@ -23,7 +20,7 @@ h4,
 h5,
 h6 {
   color: #222;
-  margin: 0 0 20px;
+  margin: 0 0 -10px 0;
 }
 p,
 ul,
@@ -31,7 +28,7 @@ ol,
 table,
 pre,
 dl {
-  margin: 0 0 20px;
+  margin: 0 0 20px 0;
 }
 h1,
 h2,
@@ -50,21 +47,15 @@ h5,
 h6 {
   color: #494949;
 }
+svg {
+  width: 100%;
+}
 a {
   color: #44bba4;
   text-decoration: none;
 }
 a:hover {
   color: #369683;
-}
-a small {
-  font-size: 11px;
-  color: #777;
-  margin-top: -0.3em;
-  display: block;
-}
-a:hover small {
-  color: #777;
 }
 .wrapper {
   background-color: #E2DADB;
@@ -87,13 +78,16 @@ img:hover {
   box-shadow: 0 0 20px 0 #9f8488;
 }
 header {
-  /*width:270px;*/
   width: 100%;
-  font-family: serif;
-  /*float:left;*/
-  /*position:fixed;*/
   text-align: center;
   -webkit-font-smoothing: subpixel-antialiased;
+}
+nav {
+  margin: 1em 0 0 3em;
+  float: left;
+}
+nav a {
+  padding: 1em;
 }
 .screenshot {
   width: 41%;
@@ -104,8 +98,11 @@ section {
   float: left;
   padding: 1% 2%;
 }
-.info > div {
+.info div {
   margin: 1em;
+}
+.info h3 {
+  text-align: center;
 }
 hr {
   border: 0;
