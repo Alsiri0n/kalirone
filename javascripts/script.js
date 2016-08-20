@@ -43,17 +43,20 @@ function changePage() {
 function animate(oldContent, newContent) {
   oldContent.style.position = 'absolute';
 
+  oldContent.parentNode.removeChild(oldContent);
   var fadeOut = oldContent.animate({
-    opacity: [1, 0]
+    opacity: [1, 0],
+
   }, 1000);
 
   var fadeIn = newContent.animate({
-    opacity: [0, 1]
+    opacity: [0, 1],
+
   }, 1000);
 
-  fadeIn.onfinish = function() {
-    oldContent.parentNode.removeChild(oldContent);
-  };
+  // fadeIn.onfinish = function() {
+  //   oldContent.parentNode.removeChild(oldContent);
+  // };
 }
 
 window.addEventListener('popstate', changePage);
