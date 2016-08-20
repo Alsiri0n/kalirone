@@ -96,7 +96,6 @@ nav a {
 main {
   float: right;
   width: 55%;
-  
 }
 section {
   width: 50%;
@@ -129,7 +128,8 @@ footer {
   }
   header,
   section,
-  footer {
+  footer,
+  main {
     float: none;
     position: static;
     width: auto;
@@ -140,12 +140,13 @@ footer {
     padding: 20px 1em;
     margin: 0 0 20px;
   }
-  .screenshot {
+  .screenshot,
+  .info {
     width: auto;
     text-align: center;
   }
-  header a small {
-    display: inline;
+  .info {
+    border: none;
   }
   svg {
     width: 100%;
