@@ -7,7 +7,7 @@
 body {
   background-color: #d3d0cb;
   margin: 0;
-  padding: 0 50px;
+  padding: 0 1em;
   font: 1em "MyriadPro", Arial, sans-serif;
   color: #313638;
   font-weight: 400;
@@ -91,18 +91,17 @@ nav a {
 }
 .screenshot {
   width: 41%;
-  display: inline-block;
 }
 main {
-  float: right;
-  width: 55%;
+  display: inline;
 }
 section {
   width: 50%;
+  display: inline-block;
   padding: 1% 2%;
 }
 .info {
-  width: 96%;
+  vertical-align: top;
 }
 .info div {
   margin: 1em;
@@ -135,7 +134,6 @@ footer {
     width: auto;
   }
   section {
-    border: 1px solid #8d8578;
     border-width: 1px 0;
     padding: 20px 1em;
     margin: 0 0 20px;
@@ -167,10 +165,15 @@ footer {
   code {
     word-wrap: normal;
   }
-}
-@media print, screen and (max-width: 480px) {
-  body {
-    padding: 15px;
+  svg {
+    height: 13em;
+  }
+  nav {
+    margin: .8em 0 0 2em;
+    float: left;
+  }
+  nav a {
+    padding-left: .5em;
   }
 }
 @media print {
